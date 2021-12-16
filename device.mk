@@ -66,3 +66,8 @@ TW_MAX_BRIGHTNESS := 1023
 TW_DEFAULT_BRIGHTNESS := 420
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
+
+# QCOM Decryption
+PRODUCT_PACKAGES += \
+    qcom_decrypt \
+    qcom_decrypt_fbe
