@@ -44,6 +44,9 @@ TARGET_USES_64_BIT_BINDER := true
 # Assert
 TARGET_OTA_ASSERT_DEVICE := Nord,avicii
 
+# Build
+BUILD_BROKEN_DUP_RULES := true
+
 # File systems
 BOARD_HAS_LARGE_FILESYSTEM := true
 TARGET_USERIMAGES_USE_EXT4 := true
