@@ -126,6 +126,10 @@ TARGET_BOARD_PLATFORM := lito
 # Recovery
 TARGET_RECOVERY_PIXEL_FORMAT := RGBX_8888
 
+# Properties
+TARGET_SYSTEM_PROP += \
+	$(DEVICE_PATH)/system.prop
+
 # System as Root
 BOARD_SUPPRESS_SECURE_ERASE := true
 
