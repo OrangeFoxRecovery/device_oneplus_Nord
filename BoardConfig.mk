@@ -1,6 +1,6 @@
 #
 #	This file is part of the OrangeFox Recovery Project
-# 	Copyright (C) 2021 The OrangeFox Recovery Project
+# 	Copyright (C) 2022 The OrangeFox Recovery Project
 #
 #	OrangeFox is free software: you can redistribute it and/or modify
 #	it under the terms of the GNU General Public License as published by
@@ -155,3 +155,17 @@ PLATFORM_VERSION := 16.1.0
 
 # Use mke2fs to create ext4 images
 TARGET_USES_MKE2FS := true
+
+# TWRP Flags
+TW_THEME := portrait_hdpi
+TW_EXTRA_LANGUAGES := true
+TW_SCREEN_BLANK_ON_BOOT := true
+TW_INPUT_BLACKLIST := "hbtp_vm"
+TW_USE_TOOLBOX := true
+TW_USE_LEDS_HAPTICS := true
+TW_EXCLUDE_TWRPAPP := true
+TW_HAS_EDL_MODE := true
+TW_MAX_BRIGHTNESS := 1023
+TW_DEFAULT_BRIGHTNESS := 420
+TWRP_INCLUDE_LOGCAT := true
+TARGET_USES_LOGD := true
