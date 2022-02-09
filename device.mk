@@ -70,6 +70,12 @@ RECOVERY_LIBRARY_SOURCE_FILES += \
 PRODUCT_COPY_FILES += \
 	$(OUT_DIR)/target/product/Nord/obj/SHARED_LIBRARIES/libandroidicu_intermediates/libandroidicu.so:$(TARGET_COPY_OUT_RECOVERY)/root/system/lib64/libandroidicu.so
 
+# Fastbootd
+PRODUCT_PACKAGES += \
+	fastbootd \
+	android.hardware.fastboot@1.0-impl-mock \
+	android.hardware.fastboot@1.0-impl-mock.recovery
+
 # QCOM Decryption
 PRODUCT_PACKAGES += \
     qcom_decrypt \
