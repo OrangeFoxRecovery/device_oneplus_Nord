@@ -56,7 +56,7 @@ PRODUCT_PACKAGES_DEBUG += \
 # Additional Libraries
 TARGET_RECOVERY_DEVICE_MODULES += \
 	libion \
-	libicuc \
+	libicuuc \
 	libandroidicu \
 	vendor.display.config@1.0 \
 	vendor.display.config@2.0
